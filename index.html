@@ -27,11 +27,11 @@
     <div id="menu">
                 <nav id="nav-menu" role="navigation">
                 <li class="whome"><a  class="current" href="https://www.lau.plus/">首页</a></li>
-		                                        <li><a  href="https://lau.plus/index.php/category/default/">默认分类</a></a></li>
-                                                                                <li><a  href="https://lau.plus/index.php/start-page" title="关于">关于</a></li>
+		                                        <!-- <li><a  href="https://lau.plus/index.php/category/default/">默认分类</a></a></li>
+                                                                                <li><a  href="https://lau.plus/index.php/start-page" title="关于">关于</a></li> -->
                     					<li><form id="search" method="post" action="./" role="search">
-					<input type="text" name="s" class="text" placeholder="输入关键字搜索" required/>
-					<button type="submit" class="submit">搜索</button>
+					<!-- <input type="text" name="s" class="text" placeholder="输入关键字搜索" required/> -->
+					<!-- <button type="submit" class="submit">搜索</button> -->
 					</form></li>
 					<div class="clearfix"></div>
                 </nav>
@@ -95,10 +95,15 @@
         </article>
 	    <ol class="page-navigator"><li class="current"><a href="/">1</a></li><li><a href="2">2</a></li><li class="next"><a href="2">后一页 &raquo;</a></li></ol></main>
     <footer id="footer">
-            2024 <a href="https://www.lau.plus/">kiko的日记</a>. 主题：<a target="_blank" href="https://yiyun.icu">迷你日志</a>
-<br><a href="http://beian.miit.gov.cn/" target="_blank" >粤ICP备2020136036号-2</a>
-    </footer>
+    <span id="current-year"></span> <a href="https://www.lau.plus/">kiko的日记</a>. 主题：<a target="_blank" href="https://yiyun.icu">迷你日志</a>
+    <br><a href="http://beian.miit.gov.cn/" target="_blank" >粤ICP备2020136036号-2</a>
+</footer>
+
+<script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
+
 </div>
-  <script src="//cdn.staticfile.org/alpinejs/3.10.5/cdn.min.js"></script>
-  <script src="//cdn.staticfile.org/instant.page/5.1.1/instantpage.min.js" type="application/javascript"></script></body>
+  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/alpinejs/3.9.0/cdn.min.js"></script>
+  <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="application/javascript"></script></body>
 </html>
